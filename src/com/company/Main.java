@@ -25,6 +25,11 @@ public class Main {
         System.out.println(encryption.fromStringToNumber("abc"));
         System.out.println(encryption.fromStringToNumber("xyz"));
 
+        //decryption
+        Decryption decryption = new Decryption();
+        System.out.print("Decrypting 0-1-2: ");
+        System.out.println(decryption.numbersToStringDecryption("0-1-2"));
+
 
     }
 }
