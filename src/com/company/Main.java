@@ -14,7 +14,7 @@ public class Main {
         Person liam = new Person("Liam", 184, 34);
         Person andre = new Person("André", 240, 34);
 
-        ArrayList<Person> personList = new ArrayList<Person>(Arrays.asList(joe, anne, liam, andre));
+        ArrayList<Person> personList = new ArrayList<>(Arrays.asList(joe, anne, liam, andre));
 
         Collections.sort(personList);
 
